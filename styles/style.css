@@ -316,7 +316,7 @@ header{
     background-color: var(--tertiary-color);
     border: solid 2px var(--tertiary-color);
     border-radius: 10px;
-    min-width: 300px;
+  
 }
 
 .project_item img{
@@ -423,6 +423,24 @@ header{
 }
 
 @media (max-width: 590px){
+    
+    .projects_section_container{
+        padding: 5px;
+        margin: 0 1rem;
+    }
+/*  
+    .project_item{
+        max-width: 200px;
+        min-width: 200px;
+        margin: 0 auto;
+    }
+
+    /* Experience Section*/
+    .experience_container{
+        width: 100vw;
+        padding: 0px;
+    }
+
     .card_row{
         display: flex;
     }
@@ -433,6 +451,6 @@ header{
 
     .card_item{
         text-align: center;
-    }
+    } 
 
 }
