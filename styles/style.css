@@ -25,6 +25,8 @@ i{
     color: var(--tertiary-color);
 }
 
+
+
 /*HEADER*/
 
 
@@ -35,8 +37,9 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
+    justify-items: center;
 }
 
 .header_container_text{
@@ -53,7 +56,6 @@ header{
     display: grid;  
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    margin: 0 2rem;
 }
 
 .header_nav_bar_list_item{
